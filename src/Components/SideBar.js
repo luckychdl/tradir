@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components"
-import SideBarItem from "./SideBarItem";
+import SideBarItem from "../Commons/SideBarItem";
 
 const Side = styled.div`
   display: flex;

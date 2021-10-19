@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 import styled from "styled-components";
-import SideBar from "./Commons/SideBar";
+import SideBar from "./Components/SideBar";
 import Basket from "./Pages/Basket";
 import BeerList from "./Pages/BeerList";
 import Home from "./Pages/Home";

@@ -67,6 +67,7 @@ const Table = ({data, columns, getBeerList}) => {
       <MaterialTable
         style={{paddingLeft:"20px"}}
         icons={tableIcons}
+
         columns={realColumns}
         data={
           value1st&&value2nd&&value3rd ? 

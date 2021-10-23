@@ -16,14 +16,10 @@ export function setColumns(columns){
   }
 }
 export default function ColumnsReducer (state = initialColumns, action){
-  if(action.type === undefined) {
-    return {
-      ...state
-    }
-  }
+  
   if (action.type === COLUMN_HEADER) {
     return {
-      ...state, data:action.data
+      ...state, columns:action.columns
     }
   }
   return state

@@ -6,11 +6,12 @@ export default function TableContainer (){
 
   const data = useSelector((state)=>state.Table.data)
   const columns = useSelector((state)=>state.Columns.columns)
+  const cartList = useSelector((state)=>state.Table.cartList)
   const dispatch = useDispatch()
 
   const getBeerList = useCallback(()=>{
     dispatch(getBeerListThunk())
   },[dispatch])
 
-  return <Table data={data} columns={columns} getBeerList={getBeerList}/>
+  return <Table data={data} cartList={cartList} columns={columns} getBeerList={getBeerList}/>
 }

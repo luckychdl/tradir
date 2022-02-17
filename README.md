@@ -10,7 +10,6 @@ yarn
 yarn start
 ```
 
-
 ## FrontEnd Coding Test Template
 안녕하세요,  
 Tradir.io에 지원해 주셔서 감사합니다.🙏
